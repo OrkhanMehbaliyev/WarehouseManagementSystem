@@ -13,7 +13,6 @@ namespace WarehouseManagementSystemAPI
 
         public event QueueEventHandler<CustomQueue<T>, QueueEventArgs> CustomQueueEvent;
 
-
         public CustomQueue()
         {
             _queue = new Queue<T>();
